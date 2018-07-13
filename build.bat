@@ -1,0 +1,1 @@
+docker run --rm -v %cd%:/app -w /app lbb/bbos-builder make %1
