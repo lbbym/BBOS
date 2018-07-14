@@ -18,6 +18,6 @@ master:
     sub     x1, x1, x0
     bl      memzero
 
-    mov     sp #LOW_MEMORY
+    mov     sp, #LOW_MEMORY
     bl      kernel_main
     b       proc_hang           //should never come here
